@@ -8,4 +8,4 @@ fnames = ['dt_end', 'dt_start', 'start', 'label', 'tp', 'before_avg', 'before_de
 for file in files:
     print(file[0:6])
     df = pd.read_csv(base + file, names=fnames, skiprows=1)
-    print(df.describe())
+    print(df['result'].describe())
