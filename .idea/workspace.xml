@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c36d062-242e-41a1-bf6c-5e5a60094694" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dt_classifirs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_results.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA_HDBSCAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA_HDBSCAN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA_KMEAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HDBACAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/HDBACAN.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +15,11 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/virgool$PCA_HDBSCAN.coverage" NAME="PCA_HDBSCAN Coverage Results" MODIFIED="1551699032784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/virgool$HDBACAN.coverage" NAME="HDBACAN Coverage Results" MODIFIED="1551699138896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/virgool$HDBACAN.coverage" NAME="HDBACAN Coverage Results" MODIFIED="1551699402590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/virgool$PCA_KMEAN.coverage" NAME="PCA_KMEAN Coverage Results" MODIFIED="1551697181397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/virgool$AllClassifiers.coverage" NAME="AllClassifiers Coverage Results" MODIFIED="1551696620060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/virgool$evaluate_ds.coverage" NAME="evaluate_ds Coverage Results" MODIFIED="1551695550187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/virgool$dt_classifirs.coverage" NAME="dt_classifirs Coverage Results" MODIFIED="1551700636578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -34,22 +36,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AllClassifiers.py">
+        <entry file="file://$PROJECT_DIR$/HDBACAN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-163">
-              <caret line="132" selection-start-line="132" selection-end-line="132" />
-              <folding>
-                <element signature="e#0#63#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PCA_HDBSCAN.py">
+        <entry file="file://$PROJECT_DIR$/dt_classifirs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="47" selection-end-column="54" />
+            <state relative-caret-position="283">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="15" />
+              <folding>
+                <element signature="e#1#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AllClassifiers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-508">
+              <caret line="132" selection-start-line="132" selection-end-line="132" />
+              <folding>
+                <element signature="e#0#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,6 +102,8 @@
         <option value="$PROJECT_DIR$/AllClassifiers.py" />
         <option value="$PROJECT_DIR$/PCA_KMEAN.py" />
         <option value="$PROJECT_DIR$/PCA_HDBSCAN.py" />
+        <option value="$PROJECT_DIR$/HDBACAN.py" />
+        <option value="$PROJECT_DIR$/dt_classifirs.py" />
       </list>
     </option>
   </component>
@@ -136,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HDBACAN">
+  <component name="RunManager" selected="Python.dt_classifirs">
     <configuration name="AllClassifiers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="virgool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,7 +241,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="evaluate_ds" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dt_classifirs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="virgool" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,7 +254,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluate_ds.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dt_classifirs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dt_classifirs" />
         <item itemvalue="Python.HDBACAN" />
         <item itemvalue="Python.PCA_HDBSCAN" />
         <item itemvalue="Python.PCA_KMEAN" />
         <item itemvalue="Python.AllClassifiers" />
-        <item itemvalue="Python.evaluate_ds" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +283,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551694778452</updated>
-      <workItem from="1551694780583" duration="3975000" />
+      <workItem from="1551694780583" duration="6043000" />
     </task>
     <task id="LOCAL-00001" summary="added AllClassifirs for test every parameter!">
       <created>1551696645569</created>
@@ -283,15 +299,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551697748382</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="rename files and cleaning.">
+      <created>1551699175246</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551699175246</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3975000" />
+    <option name="totallyTimeSpent" value="6043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -322,33 +344,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added AllClassifirs for test every parameter!" />
     <MESSAGE value="Clustering with PCA." />
-    <option name="LAST_COMMIT_MESSAGE" value="Clustering with PCA." />
+    <MESSAGE value="rename files and cleaning." />
+    <option name="LAST_COMMIT_MESSAGE" value="rename files and cleaning." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evaluate_ds.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AllClassifiers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -366,6 +369,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="47" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AllClassifiers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-508">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluate_ds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HDBACAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt_classifirs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="15" />
+          <folding>
+            <element signature="e#1#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -42,6 +42,6 @@ for file in files:
 
         if b > 0:
             if c / b > .75:
-                print('WIN', file, c * 100 / b, c, b)
+                print('WIN', file[0:6], c * 100 / b, c, b)
             if d / b > .75:
-                print('LOSS', file, d * 100 / b, d, b)
+                print('LOSS', file[0:6], d * 100 / b, d, b)
