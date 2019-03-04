@@ -129,7 +129,7 @@ def analyze(percent=80):
                 if c == 1:
                     listofindex.append([last_end_index, start_index])
             end_len = len(listofindex)
-            print(end_len)
+
             for i in range(length, end_len - 1):
                 indexes = listofindex[i]
                 X = df.iloc[indexes[0] + 1 - length:indexes[0] + 1, 2:q]
