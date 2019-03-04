@@ -10,7 +10,6 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-
 base = './files/all/'
 fnames = ['dt_end', 'dt_start', 'start', 'label', 'tp', 'before_avg', 'before_density',
           'day_of_week', 'kind', 'red_diff', 'blu_diff', 'diff_to_first', 'result']
@@ -28,7 +27,7 @@ for file in files:
     kmeans.fit(reduced_data)
 
     # Step size of the mesh. Decrease to increase the quality of the VQ.
-    h = .02     # point in the mesh [x_min, x_max]x[y_min, y_max].
+    h = .02  # point in the mesh [x_min, x_max]x[y_min, y_max].
 
     # Plot the decision boundary. For that, we will assign a color to each
     x_min, x_max = reduced_data[:, 0].min() - 1, reduced_data[:, 0].max() + 1

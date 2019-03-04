@@ -155,7 +155,6 @@ def analyze(percent=80):
                     if y_pred[0] == 1 and proba[0][1] > .91:
                         total += 1
                         if sY.tolist()[0] == 1:
-
                             net += 1
 
             allnet += net
