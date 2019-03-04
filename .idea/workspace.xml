@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c36d062-242e-41a1-bf6c-5e5a60094694" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dt_classifirs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_results.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDBACAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/HDBACAN.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +16,7 @@
     <SUITE FILE_PATH="coverage/virgool$PCA_KMEAN.coverage" NAME="PCA_KMEAN Coverage Results" MODIFIED="1551697181397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/virgool$AllClassifiers.coverage" NAME="AllClassifiers Coverage Results" MODIFIED="1551696620060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/virgool$evaluate_ds.coverage" NAME="evaluate_ds Coverage Results" MODIFIED="1551695550187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/virgool$dt_classifirs.coverage" NAME="dt_classifirs Coverage Results" MODIFIED="1551700636578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/virgool$dt_classifirs.coverage" NAME="dt_classifirs Coverage Results" MODIFIED="1551701965245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -47,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dt_classifirs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="15" />
+            <state relative-caret-position="-255">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#1#10#0" expanded="true" />
               </folding>
@@ -283,7 +280,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551694778452</updated>
-      <workItem from="1551694780583" duration="6043000" />
+      <workItem from="1551694780583" duration="6712000" />
     </task>
     <task id="LOCAL-00001" summary="added AllClassifirs for test every parameter!">
       <created>1551696645569</created>
@@ -306,14 +303,22 @@
       <option name="project" value="LOCAL" />
       <updated>1551699175246</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added final results and configuration.">
+      <created>1551701941193</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551701941193</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6043000" />
+    <option name="totallyTimeSpent" value="6712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -331,7 +336,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" visible="true" weight="0.32959402" />
+      <window_info anchor="right" id="SciView" weight="0.32959402" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -345,7 +350,8 @@
     <MESSAGE value="added AllClassifirs for test every parameter!" />
     <MESSAGE value="Clustering with PCA." />
     <MESSAGE value="rename files and cleaning." />
-    <option name="LAST_COMMIT_MESSAGE" value="rename files and cleaning." />
+    <MESSAGE value="added final results and configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="added final results and configuration." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -401,8 +407,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dt_classifirs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="15" />
+        <state relative-caret-position="-255">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
           </folding>
