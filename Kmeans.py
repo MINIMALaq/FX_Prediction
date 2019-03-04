@@ -10,8 +10,7 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-# #############################################################################
-# Generate sample data
+
 base = './files/all/'
 fnames = ['dt_end', 'dt_start', 'start', 'label', 'tp', 'before_avg', 'before_density',
           'day_of_week', 'kind', 'red_diff', 'blu_diff', 'diff_to_first', 'result']

@@ -1,12 +1,11 @@
-
 import hdbscan
 import pandas as pd
 import os
 from sklearn.preprocessing import StandardScaler
 import warnings
 from sklearn.decomposition import PCA
-warnings.filterwarnings('ignore')
 
+warnings.filterwarnings('ignore')
 
 base = './files/all/'
 fnames = ['dt_end', 'dt_start', 'start', 'label', 'tp', 'before_avg', 'before_density',
@@ -43,6 +42,6 @@ for file in files:
 
         if b > 0:
             if c / b > .75:
-                print(file, c * 100 / b, c, b)
+                print('WIN', file, c * 100 / b, c, b)
             if d / b > .75:
                 print('LOSS', file, d * 100 / b, d, b)
