@@ -1,3 +1,8 @@
 # FX_Prediction
-I wrote a complete post about this repo here:
-https://dataio.ir/%D8%AA%D8%AD%D9%84%DB%8C%D9%84-%D8%AA%DA%A9%D9%86%DB%8C%DA%A9%D8%A7%D9%84-%D9%88-%D9%BE%DB%8C%D8%B4-%D8%A8%DB%8C%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D9%81%D8%A7%D8%B1%DA%A9%D8%B3-%D8%A8%D8%A7-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D9%87%D9%88%D8%B4-%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C-%D9%88-%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D9%85%D8%A7%D8%B4%DB%8C%D9%86-fyrxs2xgl1kn
+All needed files are in files directory.
+For evaluating initial results run evaluate_ds.py.
+For cheching a list of classifiers on dataset run AllClassifiers.py.
+For analysis results with unsupervised learning algorithms use HDBACAN.py and Kmeans.py.
+To see final results run dt_classifirs.py and I stored the real results in  	final_results.xls.
+I wrote a complete post about this repo in Persian here:
+ http://vrgl.ir/4ryY0 
